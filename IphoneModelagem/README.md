@@ -13,27 +13,46 @@ Este projeto implementa um modelo do iPhone com funcionalidades de Reprodutor Mu
 - `diagrams/`
 - Contém o diagrama UML representando a estrutura do projeto.
 
-## Funcionalidades
+### Estrutura do projeto
 
-### Reprodutor Musical
+IPHONEMODELAGEM/
+├── .vscode/
+├── bin/
+│   ├── AparelhoTelefonico.class
+│   ├── IPhone.class
+│   ├── NavegadorInternet.class
+│   └── ReprodutorMusical.class
+├── diagrams/
+│   └── (sua imagem .png)
+├── lib/
+├── src/
+│   ├── AparelhoTelefonico.java
+│   ├── IPhone.java
+│   ├── NavegadorInternet.java
+│   └── ReprodutorMusical.java
+└── README.md
+
+#### Funcionalidades
+
+#### Reprodutor Musical
 
 - `tocar()`: Inicia a reprodução de música.
 - `pausar()`: Pausa a reprodução de música.
 - `selecionarMusica(String musica)`: Seleciona uma música específica para reproduzir.
 
-### Aparelho Telefônico
+#### Aparelho Telefônico
 
 - `ligar(String numero)`: Realiza uma ligação para o número especificado.
 - `atender()`: Atende uma chamada.
 - `iniciarCorreioVoz()`: Inicia o correio de voz.
 
-### Navegador na Internet
+#### Navegador na Internet
 
 - `exibirPagina(String url)`: Exibe a página web da URL especificada.
 - `adicionarNovaAba()`: Adiciona uma nova aba no navegador.
 - `atualizarPagina()`: Atualiza a página atual.
 
-## Como Executar
+##### Como Executar
 
 1. **Compilar os Arquivos Java:**
 
@@ -43,7 +62,7 @@ javac -d bin src/*.java
 
 java -cp bin IPhone
 
-## Diagrama UML
+##### Diagrama UML
 
 O diagrama UML que representa a estrutura do projeto está disponível no diretório diagrams.
 Autor
